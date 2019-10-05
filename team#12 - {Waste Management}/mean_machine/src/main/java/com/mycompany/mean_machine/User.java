@@ -133,6 +133,7 @@ String username, password;
         // TODO add your handling code here:
         
         username = jTextField1.getText();
+       
         password = jTextField2.getText();
         this.setVisible(false);
         new UserHome().setVisible(true);
