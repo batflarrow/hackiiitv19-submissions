@@ -1,10 +1,12 @@
 com\mycompany\mean_machine\InvPass$2.class
 com\mycompany\mean_machine\InPass$1.class
 com\mycompany\mean_machine\accesspoint$1.class
+com\mycompany\mean_machine\inpass2$1.class
 com\mycompany\mean_machine\User$6.class
 com\mycompany\mean_machine\login$1.class
 com\mycompany\mean_machine\kabaadiLogin$3.class
 com\mycompany\mean_machine\accesspoint$2.class
+com\mycompany\mean_machine\Welcome$1.class
 com\mycompany\mean_machine\InPass$2.class
 com\mycompany\mean_machine\login$2.class
 com\mycompany\mean_machine\User.class
@@ -15,10 +17,14 @@ com\mycompany\mean_machine\User$1.class
 com\mycompany\mean_machine\UserHome$6.class
 com\mycompany\mean_machine\home$1.class
 com\mycompany\mean_machine\login.class
+com\mycompany\mean_machine\inpass2.class
 com\mycompany\mean_machine\accesspoint.class
 com\mycompany\mean_machine\home$2.class
 com\mycompany\mean_machine\kabadiform$4.class
+com\mycompany\mean_machine\inpass2$2.class
 com\mycompany\mean_machine\InvPass.class
 com\mycompany\mean_machine\Register$5.class
+com\mycompany\mean_machine\Welcome$2.class
 com\mycompany\mean_machine\InPass.class
 com\mycompany\mean_machine\home.class
+com\mycompany\mean_machine\Welcome.class

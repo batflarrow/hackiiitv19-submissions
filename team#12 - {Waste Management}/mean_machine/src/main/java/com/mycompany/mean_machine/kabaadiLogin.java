@@ -4,14 +4,17 @@
  * and open the template in the editor.
  */
 package com.mycompany.mean_machine;
-
+import java.util.Arrays; 
 /**
  *
  * @author vidit
  */
 public class kabaadiLogin extends javax.swing.JFrame {
+    
 
     String username,password;
+    char pass[]={'u','k','a','b','1','2','3','4'};
+    
     /**
      * Creates new form kabaadiLogin
      */
@@ -122,15 +125,22 @@ public class kabaadiLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
         username=jTextField1.getText();
         char[] password=jPasswordField1.getPassword();
-         this.setVisible(false);
-        new kabadiform().setVisible(true);
+         if(Arrays.equals(password, pass))
+         {
+             this.setVisible(false);
+          new kabadiform().setVisible(true);
+         }
+         else
+             {this.setVisible(false);
+          new inpass2().setVisible(true);}
+             
         
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         this.setVisible(false);
-        new login().setVisible(true);
+        new InPass().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
